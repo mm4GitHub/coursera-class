@@ -1,0 +1,104 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;  
+}
+
+h1{
+text-align: center;
+margin-bottom:30px;
+}
+
+*row{
+    width: 100%;
+
+}
+
+ .column{
+    text-align: left;
+    background-color: silver;
+    border: solid 3px black;
+    width: 350px;
+    height: 150px;
+    float: left;
+    margin-right: 10;
+    margin-left: 10;
+
+ }
+
+ p{
+
+    font-size: 15px;
+
+ }
+
+
+h2{
+    text-align:center;
+    border:1px solid black;
+    margin-top:0px;
+    margin-left: 140px;
+    background-color: blue;
+}
+.col2{
+    background-color: skyblue;
+}
+.col3{
+    background-color: blueviolet;
+}
+
+@media (min-width: 992px) and (max-width: 1200px)
+
+{
+.col-lg-1, .col-lg-2, .col-lg-3{
+float: left;
+border :3px solid black;
+}
+.col-lg-1{
+ width: 33.33%;
+}
+.col-lg-2{
+width: 33.33%;
+}
+.col-lg-3{
+width: 33.33%;
+}
+}
+   
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+.col-md-1, .col-md-2, .col-md-3{
+float: left;
+border :3px solid black;
+}
+.col-md-1{
+width: 33.33%;
+}
+.col-md-2{
+width: 50%;
+}
+.col-md-3{
+width: 100%;
+}
+}
+
+@media (max-width: 767px){
+.col-xs-1, .col-xs-2, .col-xs-3{
+ float: left;
+ border: 3px solid black;
+}
+.col-xs-1{
+width: 33.33%;
+}
+.col-xs-2{
+width: 33.33%;
+}
+.col-xs-3{
+width: 33.33%;
+}
+}
