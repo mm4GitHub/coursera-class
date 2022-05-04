@@ -1,0 +1,52 @@
+body
+{
+	font-size: 16px;
+	color: black;
+	background-color: grey;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** Header **/
+#header-nav{
+	background-color: white;
+	border-radius: 0;
+	border: 0;
+
+}
+
+.headingclass{
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+ .navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  line-height: 1;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+@media (min-width: 768px) {
+  .navbar-toggle{
+    transition: none;
+  }
+
+.navbar-toggle:focus {
+  outline: 0;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar{
+	margin-top: 4px;
+}

@@ -4061,7 +4061,9 @@ textarea.form-control-lg {
   align-items: center;
 }
 
-.navbar-toggler {
+.navbar-toggle {
+  position: relative;
+  float: right;
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
@@ -4070,21 +4072,21 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
 }
-@media (prefers-reduced-motion: reduce) {
-  .navbar-toggler {
+@media (min-width: 768px) {
+  .navbar-toggle {
     transition: none;
   }
 }
-.navbar-toggler:hover {
+.navbar-toggle:hover {
   text-decoration: none;
 }
-.navbar-toggler:focus {
+.navbar-toggle:focus {
   text-decoration: none;
   outline: 0;
   box-shadow: 0 0 0 0.25rem;
 }
 
-.navbar-toggler-icon {
+.navbar-toggle-icon {
   display: inline-block;
   width: 1.5em;
   height: 1.5em;
