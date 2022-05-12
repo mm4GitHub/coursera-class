@@ -20,8 +20,13 @@ li.nav-item a{
   color: black!important;
 
 }
-.navbar-toggler-icon{
-  color: black!important;
+p{
+  font-weight: bolder;
+}
+.text-decoration-style{
+  text-align: center;
+  
+
 }
 
 @media (min-width: 768px) {
