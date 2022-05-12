@@ -20,13 +20,15 @@ li.nav-item a{
   color: black!important;
 
 }
+.text-center{
+  display: block;
+  margin: 1rem auto;
+}
 p{
   font-weight: bolder;
 }
 .text-decoration-style{
   text-align: center;
-  
-
 }
 
 @media (min-width: 768px) {
